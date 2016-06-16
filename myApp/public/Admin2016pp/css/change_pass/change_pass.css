@@ -1,0 +1,13 @@
+.btn-send-code{
+    line-height:24px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.input-code:focus{
+    outline: none;
+    box-shadow: none;
+}
+.portlet-title h3{
+    line-height:37px;
+    color:#fff;
+}

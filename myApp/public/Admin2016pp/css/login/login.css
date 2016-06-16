@@ -1,0 +1,189 @@
+body{
+    background-color: #5c97bd;
+}
+.login-content{
+
+}
+.ant-pwd-strength {
+    display: inline-block;
+    margin-left: 8px;
+    line-height: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.ant-pwd-strength-item {
+    float: left;
+    margin-right: 1px;
+    margin-top: 12px;
+    width: 19px;
+    height: 8px;
+    line-height: 8px;
+    list-style: none;
+    background-color: #f3f3f3;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-pwd-strength-item-1 {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.ant-pwd-strength-item-2 {
+    width: 20px;
+}
+
+.ant-pwd-strength-item-3 {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-right: 8px;
+}
+
+.ant-pwd-strength-low .ant-pwd-strength-item-1, .ant-pwd-strength-medium .ant-pwd-strength-item-1, .ant-pwd-strength-high .ant-pwd-strength-item-1 {
+    background-color: #FAC450;
+}
+
+.ant-pwd-strength-medium .ant-pwd-strength-item-2, .ant-pwd-strength-high .ant-pwd-strength-item-2 {
+    background-color: rgba(135, 208, 104, .6);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#9987D068,endColorstr=#9987D068);
+}
+
+.ant-pwd-strength-high .ant-pwd-strength-item-3 {
+    background-color: #87D068;
+}
+form .input-cus{
+    border-radius: 3px;
+    width:100%;
+    color: #d9ecf9;
+    line-height:200%;
+    padding: 6px 12px;
+    font-size:14px;
+    height:40px;
+    background-color: #6ba3c8;
+    border:0px;
+}
+
+.sub-cus-2{
+    border-radius: 3px;
+    width:100%;
+    color: #d9ecf9;
+    line-height:200%;
+    padding: 6px 12px;
+    font-size:14px;
+    height:40px;
+    background-color: #6ba3c8;
+}
+form .input-cus::-webkit-input-placeholder  {
+    color:#fafafa!important;
+}
+.login-form{
+    width:400px;
+    margin:40px auto;
+}
+.logo-p{
+    margin: 100px auto 0;
+    text-align: center;
+    color:#f5f5f5;
+    font-size:18px;
+    padding:15px;
+}
+#app .ant-btn-primary{
+    width:100%;
+    background-color: #e7505a;
+    padding: 8px 25px;
+    line-height: 1.44;
+    border-radius: 3px;
+    font-size:18px;
+    color:#f5f5f5;
+}
+#app .ant-btn-primary:hover {
+    background-color:#f21276
+}
+.login-form{
+    color: #edf4f8;
+    font-size: 19px;
+    font-weight: 400;
+    line-height:200%;
+}
+.link-one{
+    display:inline-block;
+    width:100%;
+    color:#fff;
+    text-decoration: none;
+    text-align: right;
+    font-size:13px;
+}
+#app .ant-select-selection__rendered {
+    padding: 3px 12px;
+    background-color:#6ba3c8 ;
+    border-radius: 3px;
+}
+#app  .ant-select-selection__rendered span{
+    color:#fff;
+}
+#app  .ant-select-selection--single{
+    height:auto!important;
+}
+#app .ant-select-selection{
+    border-radius:3px;
+    border: 0px;
+}
+#app .ant-form-explain{
+    color:#ff0000;
+}
+.ant-select-dropdown{
+    /*border-radius:0px;*/
+}
+/*#app .ant-input{*/
+    /*outline: 0px!important;*/
+/*}*/
+.ant-input:focus{
+    box-shadow: 0px 0px 1px 1px #f5f5f5!important;
+}
+.ant-select-selection:focus{
+    box-shadow: 0px 0px 1px 1px #f5f5f5!important;
+}
+.ant-select-arrow{
+    color:#fff;
+}
+#app .ant-input{
+    border-radius: 3px;
+    width:100%;
+    color: #d9ecf9;
+    line-height:200%;
+    padding: 6px 12px;
+    font-size:14px;
+    height:40px;
+    background-color: #6ba3c8;
+    border:0px;
+}
+#app .ant-input::-webkit-input-placeholder  {
+    color:#fafafa!important;
+}
+#app .has-success.has-feedback:after,
+#app .has-warning.has-feedback:after,
+#app .has-error.has-feedback:after,
+#app.is-validating.has-feedback:after{
+    height:40px;
+    line-height: 40px;
+}
+.btn-send-code{
+    border-radius: 2px;
+    border-top-left-radius:0!important ;
+    border-bottom-left-radius:0!important ;
+    font-size:13px!important;
+    line-height: 26px!important;
+    border:0!important;
+    background: #fff;
+    padding:7px 20px!important;
+}
+.input-code{
+    border-top-right-radius:0!important ;
+    border-bottom-right-radius:0!important ;
+}
+#app button.disabled{
+    background: #ddd;
+}
+#app button.disabled:hover{
+    background: #ddd;
+}

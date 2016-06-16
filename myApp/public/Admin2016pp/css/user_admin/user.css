@@ -1,0 +1,113 @@
+.search-input{
+    width:300px;
+    height:100%;
+    background: #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding:5px 30px 5px 10px;
+}
+.search-input:hover{
+    box-shadow: 0 1px 4px rgba(0,0,0,0.7);
+}
+.search-input input{
+    width:100%;
+    height:100%;
+    border:0;
+    outline:0;
+}
+.table-data{
+    width:100%;
+    box-sizing: border-box;
+    padding:20px;
+}
+.btn{
+    padding:0 10px;
+    line-height:150%;
+    border:0px;
+    display: inline-block;
+    color:#fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    border-radius:2px;
+    margin-right:10px;
+}
+.btn-remove{
+    background: #99948B;
+}
+.btn-pass{
+    background: #EAB992;
+}
+.btn-recover{
+    background: #7A9275;
+}
+.tabs{
+    width:100%;
+    background:#00BCD4;
+    position: relative;
+    z-index:0;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    margin-bottom:30px;
+}
+.tabs li{
+    float: left;
+    width:33.3%;
+    line-height:48px;
+    text-align: center;
+    color:rgba(255,255,255,0.7);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+    -o-transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+    -moz-transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.tabs .active{
+    color:rgba(255,255,255,1);
+}
+.tabs .active:after{
+    content:"";
+    display: inline-block;
+    width:100%;
+    height:2px;
+    position: absolute;
+    bottom:0px;
+    left:0;
+    background: #FF4081;
+    animation: tab-active 1s cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-animation: tab-active 1s cubic-bezier(0.23, 1, 0.32, 1);
+    -o-animation: tab-active 1s cubic-bezier(0.23, 1, 0.32, 1);
+    -moz-animation: tab-active 1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+@keyframes tab-active {
+    from{
+        left:-100%
+    }
+    to{
+        left:0
+    }
+}
+@-webkit-keyframes tab-active {
+    from{
+        left:-100%
+    }
+    to{
+        left:0
+    }
+}
+@-moz-keyframes tab-active {
+    from{
+        left:-100%
+    }
+    to{
+        left:0
+    }
+}
+@-o-keyframes tab-active {
+    from{
+        left:-100%
+    }
+    to{
+        left:0
+    }
+}
