@@ -8,7 +8,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session=require("express-session");
 var mongoose=require("./config/mongoose.js");
-var RedisStore = require('connect-redis')(session);
+//var RedisStore = require('connect-redis')(session);
 
 var db=mongoose();
 
@@ -39,13 +39,13 @@ app.use("/admin2016pp/build",express.static(path.join(__dirname, 'public/build')
 app.use("/blog/build",express.static(path.join(__dirname, 'public/build')));
 app.use(cookieParser('user'));
 app.use(favicon());
-app.use(session({
-  secret: 'keyboard cat',
-  key: 'sid',
-  cookie: { secure: false },
-  saveUninitialized: true,
-  resave: false,
-}));
+//app.use(session({
+//  secret: 'keyboard cat',
+//  key: 'sid',
+//  cookie: { secure: false },
+//  saveUninitialized: true,
+//  resave: false,
+//}));
 
 
 //app.use(cookieParser());

@@ -36,7 +36,7 @@ function Account_Center(){
             status:"in_review",
             register_time:gf.getNowTime(),
         };
-        console.log(data);
+        console.log(data,11);
         this.getInstance(data);
         this.sqlObj.save(function(err,next){
             if(err){
