@@ -18,7 +18,6 @@ class LoginForm extends Component{
         this.onHidden=this.onHidden.bind(this);
         this.isShowForget=this.isShowForget.bind(this);
     }
-
     getValidateStatus(field) {
         const { isFieldValidating, getFieldError, getFieldValue } = this.props.form;
         if (isFieldValidating(field)) {
@@ -196,6 +195,7 @@ class RegisterFrom extends Component{
             data:params,
             type: 'json'
         }).then(data => {
+            console.log(data);
             if(data.status=="1"){
                 window.location.href="http://localhost:3000/admin2016pp/users";
             }else{

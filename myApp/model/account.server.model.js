@@ -40,7 +40,7 @@ var accountSchema=new mongoose.Schema({
     },
     email:{
         type:String,
-        default:"-",
+        default:"",
         match:/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/
     },
     login_times:{

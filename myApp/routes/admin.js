@@ -27,7 +27,7 @@ router.get("/users",function(req,res,next){
   //console.log(query);
   req.session.cookie.path="/users";
   console.log(req.session,200);
-  gf.setSession(req,res);
+  //gf.setSession(req,res);
   res.render('Admin/users', { title: '屌丝管你台',build:BUILD});
 });
 router.get("/tech",function(req,res,next){

@@ -59566,6 +59566,7 @@ webpackJsonp([2],[
 	                data: params,
 	                type: 'json'
 	            }).then(function (data) {
+	                console.log(data);
 	                if (data.status == "1") {
 	                    window.location.href = "http://localhost:3000/admin2016pp/users";
 	                } else {
@@ -60528,6 +60529,7 @@ webpackJsonp([2],[
 	                data: params,
 	                type: 'json'
 	            }).then(function (data) {
+	                console.log(data);
 	                if (data.status == "1") {
 	                    window.location.href = "http://localhost:3000/admin2016pp/users";
 	                } else {

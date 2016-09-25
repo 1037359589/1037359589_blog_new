@@ -15,6 +15,11 @@ function Account_Center(){
     * */
     this.getInstance=function(data){
         var d=data||"";
+        if(false){
+
+        }else{
+
+        }
         this.sqlObj=new Account(d);
     };
     /*
@@ -39,6 +44,7 @@ function Account_Center(){
         console.log(data,11);
         this.getInstance(data);
         this.sqlObj.save(function(err,next){
+            console.log(err,1231232);
             if(err){
                 res.json({status:"0",data:{},msg:err});
                 return;
